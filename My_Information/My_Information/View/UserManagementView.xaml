@@ -1,0 +1,22 @@
+﻿<Window x:Class="My_Information.View.UserManagementView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:My_Information.View"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        mc:Ignorable="d"
+        Title="UserList" Height="400" Width="364">
+    <Grid>
+        <ListView x:Name="myListView" ItemsSource="{Binding Path=USER}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="USER ID" Width="100" DisplayMemberBinding="{Binding ID}"/>
+                    <GridViewColumn Header="NAME" Width="100" DisplayMemberBinding="{Binding NAME}"/>
+                    <GridViewColumn Header="IP" Width="150" DisplayMemberBinding="{Binding IP}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
