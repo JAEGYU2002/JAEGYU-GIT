@@ -38,3 +38,6 @@ C:\Users\heath\Desktop\My_Information\My_Information\bin\Debug\log4net.config
 C:\Users\heath\Desktop\My_Information\My_Information\obj\Debug\My_Information.csprojResolveAssemblyReference.cache
 C:\Users\heath\Desktop\My_Information\My_Information\obj\Debug\View\LoginLogView.g.cs
 C:\Users\heath\Desktop\My_Information\My_Information\obj\Debug\View\LoginLogView.baml
+C:\Users\heath\Documents\Git\Benz\My_Information\My_Information\bin\Debug\My_Information.exe.config
+C:\Users\heath\Documents\Git\Benz\My_Information\My_Information\obj\Debug\My_Information.exe
+C:\Users\heath\Documents\Git\Benz\My_Information\My_Information\obj\Debug\My_Information.pdb

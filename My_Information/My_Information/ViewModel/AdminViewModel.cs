@@ -16,6 +16,7 @@ namespace My_Information.ViewModel
             userButton = new RelayCommand(UserClick);
             loginLogButton = new RelayCommand(loginLogClick);
             dbResetButton = new RelayCommand(dbResetClick);
+            //zz
         }
 
         public void UserClick(object obj)
